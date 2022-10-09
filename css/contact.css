@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*.....................................css design for header...........................................*/
+
+header{
+    background-color: rgb(226, 202, 202);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+nav{
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+    background-color: rgb(55, 45, 83);
+    box-shadow:0px 0px 20px 20px pink;
+}
+
+nav .logo{
+    font-size: 33px;
+    color: orangered;
+    font-weight: 600;
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+nav ul{
+      display: flex;
+      list-style: none;
+      float: right;
+      position: absolute;
+      right: 20px;
+      top: 30px;
+}
+
+nav ul li{
+    margin: 0px 5px;
+    padding-right: 10px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover{
+    background-color: rgb(55, 220, 226);
+}
+
+
+nav .menu-btn i{
+    color: rgb(255, 255, 255);;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 40px;
+    top: 27px;
+}
+#click{
+    display: none;
+}
+
+.li-list{
+    background-color: rgb(126, 239, 243);
+    height: 30px;
+    width: 100%;
+    box-shadow:0px 0px 5px 5px rgb(126, 239, 243);
+}
+
+
+
+
+
+/*.................................css for upper dropdown link....................................*/
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+
+ 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.dropdown1, .dropdown2, .dropdown3, .dropdown4, .dropdown5, .dropdown6, .dropdown7 {
+  float: left;
+  overflow: hidden;
+  padding-left: 60px;
+  padding-right: 30px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 20px;
+  
+}
+
+
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 23px;  
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+/*.....................................CONTACT DETAIL.....................................*/
+
+
+.textarea{
+  display: flex;
+  
+}
+.ptext1{
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  color: rgb(39, 39, 34);
+  font-size: x-large;
+}
+
+.paragraph1{
+  text-align: center;
+  float: left;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 240px;
+  margin-left: 120px;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  
+}
+
+
+.ptext4{
+  font-size: xx-large;
+  color: #000;
+  font-weight: 800;
+  padding-top: 20px;
+}
+
+.paragraph2{
+  text-align: center;
+  float: left;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 240px;
+  margin-left: 520px;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.ptext5{
+  font-size: xx-large;
+  font-weight: 800;
+  padding-top: 20px;
+  color: rgb(130, 48, 224);
+}
+
+.paragraph3{
+  text-align: center;
+  float: left;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 240px;
+  margin-left: 920px;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.ptext6{
+  font-size: xx-large;
+  font-weight: 800;
+  padding-top: 20px;
+  color: rgb(196, 25, 25);
+}
+
+.conicon1 i{
+  font-size: 60px;
+ 
+}
+.conicon2 i{
+  font-size: 60px;
+  
+}
+.conicon3 i{
+  font-size: 60px;
+  
+}
+.address{
+  font-size: large;
+}
+/*.........................................css design for footer.................................*/
+
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: auto;
+  top: 95vh;
+  padding-top: 40px;
+  color: #fff;
+  }
+  
+  .footer-bottom{
+  background: #000;
+  width: 100%;
+  padding: 0px;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 99vw;
+  padding-top: 20px;
+  color: #fff;
+  }
+  
+  .footer-menu{
+    float: right;
+  
+  }
+  .footer-menu ul{
+    display: flex;
+  }
+  .footer-menu ul li{
+  padding-right: 20px;
+  display: block;
+  }
+  .footer-menu ul li a{
+    color: #cfd2d6;
+    text-decoration: none;
+  }
+  .footer-menu ul li a:hover{
+    color: #27bcda;
+  }
+  
+  .footer-bottom p{
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  padding-left: 8px;
+  }
+  .footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+  }
+  .footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+  }
+  
+
+
+
+/*................................css for responsive web design--------------------------------------*/
+
+@media (max-width:940px){
+    
+  nav .logo{
+      font-size: 28px;
+  }
+
+  
+  nav .menu-btn i{
+      display: block;
+      font-size: 20px;
+      
+  }
+  nav ul{
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background:rgb(0, 0, 0);
+      height: 100vh;
+      width: 100%;
+      display: block;
+      text-align: center
+
+  }
+
+  #click:checked ~ ul{
+      left: 0%;
+      transition: 0.3s ease;
+  }
+
+  #click:checked ~ .menu-btn i::before{
+      content:"\f00d";
+  }
+  nav ul li{
+      margin: 40px 0;
+  }
+
+  nav ul li a{
+      font-size: 20px;
+      display: block;
+  }
+  nav ul li a:hover{
+      color: cyan;
+      background: none;
+  }
+
+
+  .fpara{
+      font-size: 40px;
+      position: absolute;
+      top: 200px;
+      left: 100px;
+  }
+
+  .mbutton ul button{
+     
+      font-size: 20px;
+      font-family: fantasy;
+      border-radius: 1000px;
+      border-color: cornsilk;
+      border-width: 5px;
+      background-color: khaki;
+      margin: 50px;
+      position: relative;
+      top: 320px;
+      left: 50px;
+    }
+  
+
+
+    /*.....for dropdown menu button .........................*/
+
+    .navbar .dropdown1 .dropdown2 .dropdown3 .dropdown4 .dropdown5 .dropdown6 .dropdown7{
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background:rgb(0, 0, 0);
+      height: 100vh;
+      width: 100%;
+      display: block;
+      text-align: center
+
+  }
+
+  #click:checked ~ .navbar .dropdown1 .dropdown2 .dropdown3 .dropdown4 .dropdown5 .dropdown6 .dropdown7{
+      left: 0%;
+      transition: 0.3s ease;
+  }
+
+  #click:checked ~ .navbar.menu-btn i::before{
+      content:"\f00d";
+  }
+   .navbar .dropdown1 .dropdown2 .dropdown3 .dropdown4 .dropdown5 .dropdown6 .dropdown7{
+      margin: 40px 0;
+  }
+
+   .navbar .dropdown1 .dropdown2 .dropdown3 .dropdown4 .dropdown5 .dropdown6 .dropdown7 a{
+      font-size: 20px;
+      display: block;
+  }
+  .navbar .dropdown1 .dropdown2 .dropdown3 .dropdown4 .dropdown5 .dropdown6 .dropdown7 a:hover{
+      color: cyan;
+      background: none;
+  }
+
+}
+
